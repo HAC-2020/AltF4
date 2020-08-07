@@ -41,7 +41,7 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 - First of all, this is a decentralized application and therefore eradicates any control of central authorities over the medical funds or donation amounts. This ensures the       utmost security from any tamper with medical data that might take place in traditional systems.
 
-- Secondly, Medicare Chain implements a smart contract. This contract not only operates independently but also keeps an immutable record of the participants withdrawing or         donating funds while maintaining a control system that limits the accessibility of participants in the network from certain features. Thus, smart contracts in Seguro Medico     ensures reliability and trust in the system since there is no chance of any mishaps with medical funds due to Human bias. 
+- Secondly, Seguro Medico implements a smart contract. This contract not only operates independently but also keeps an immutable record of the participants withdrawing or         donating funds while maintaining a control system that limits the accessibility of participants in the network from certain features. Thus, smart contracts in Seguro Medico     ensures reliability and trust in the system since there is no chance of any mishaps with medical funds due to Human bias. 
 
 -  Finally, each and every transaction that takes place on this application, along with its timestamp, is stored with utmost safety on the Blockchain. Thus ensuring complete        immutability of the data.
 
