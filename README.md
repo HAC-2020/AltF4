@@ -1,4 +1,4 @@
 ## AltF4
 # Seguro Medico
-![image](images/Seguro Medico.png)
+![image](https://github.com/HAC-2020/AltF4/blob/master/images/Seguro%20Medico.png)
 
