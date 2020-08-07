@@ -1,6 +1,10 @@
 ## AltF4
 # Seguro Medico
 <img src="https://github.com/HAC-2020/AltF4/blob/master/images/Seguro%20Medico.png" alt="image" class="center">
+<div align="center">
+<img src="https://github.com/HAC-2020/AltF4/blob/master/images/Seguro%20Medico.png" >
+<p>Perfectly balanced</p>
+</div>
 
 A platform that provides immutable medical records and financial assistance facility for patients(crowdfunding)
 
