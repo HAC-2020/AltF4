@@ -33,6 +33,20 @@ A 33-year-old software engineer working in the private sector lost her savings o
 
 This all has become a major issue dropping Indian citizens into financial conditions like taking loans and so many to go below the poverty line.
 
+## What it does
+
+Seguro Medico provides immutable management and access of medical records and financial assistance to patients.
+
+- If observed carefully, it can quite clearly be seen that the major hurdle that prevents the patients to be in control of the complete insurance or donation amount is the long   list of third parties as well as the central authorities in control. And that is exactly the two major issues that Seguro Medico effectively solves.
+
+- First of all, this is a decentralized application and therefore eradicates any control of central authorities over the medical funds or donation amounts. This ensures the       utmost security from any tamper with medical data that might take place in traditional systems.
+
+- Secondly, Medicare Chain implements a smart contract. This contract not only operates independently but also keeps an immutable record of the participants withdrawing or         donating funds while maintaining a control system that limits the accessibility of participants in the network from certain features. Thus, smart contracts in Seguro Medico     ensures reliability and trust in the system since there is no chance of any mishaps with medical funds due to Human bias. 
+
+-  Finally, each and every transaction that takes place on this application, along with its timestamp, is stored with utmost safety on the Blockchain. Thus ensuring complete        immutability of the data.
+
+
+
 
 
 
