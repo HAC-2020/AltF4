@@ -6,6 +6,7 @@ import { Home } from './Components/Home/Home';
 import { Doctor } from './Components/Doctor/Doctor';
 import { Donate } from './Components/Donate/Donate.jsx';
 import Admin from './Components/Admin/Admin';
+import Footer from './Components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Portis from '@portis/web3';
 import Web3 from 'web3';
@@ -82,7 +83,7 @@ class App extends Component {
             <Route path="/donate" component={() => <Donate contract={this.donorInstance} accounts = {this.accounts} web3={this.state.web3} />} />
           </Switch>
         </Router>
-        
+        <Footer />
       </div>
     );
   }
