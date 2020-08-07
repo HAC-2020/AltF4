@@ -46,6 +46,38 @@ Seguro Medico provides immutable management and access of medical records and fi
 -  Finally, each and every transaction that takes place on this application, along with its timestamp, is stored with utmost safety on the Blockchain. Thus ensuring complete        immutability of the data.
 
 
+## Potential Users
+### Patients -
+For storing their medical records and on the blockchain.       
+Donation for patients (only patients handle their donation funds)                                                                                                           
+ 
+## Challenges we ran into
+- Integrating Portis Wallet.
+
+- Connecting blockchain with react app.
+
+- Making dynamic easy to use interfaces.
+
+- Working in teams remotely.
+
+
+## Accomplishments that I'm proud of
+
+- Able to build a working platform with great teamwork in such a short time.
+
+- Being able to provide help to patients in need of financial help.
+
+
+## What we learned
+- Learned how to divide tasks as a team and be accountable for it, setting report time.
+
+- How to integrate portis wallet.
+
+
+## What's next for Seguro Medico
+- We are planning to reach hospitals and patients who could benefit from each other. Hospitals by getting their medical records data on blockchain and patients by getting access to immutable and unforged medical records asap.
+
+
 
 
 
