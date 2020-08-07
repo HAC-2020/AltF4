@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="https://github.com/HAC-2020/AltF4/blob/master/images/Seguro%20Medico.png" >
-<p>Perfectly balanced</p>
+
 </div>
 
 # Seguro Medico
