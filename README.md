@@ -18,4 +18,21 @@ And these statistics are even worse for many other underdeveloped countries like
 
 A 33-year-old software engineer working in the private sector lost her savings of eight years in a day when her father, 65, underwent a liver transplant in a private hospital. “Not only did my savings go, but I also had to borrow money from the family to foot the bill. The procedure and hospitalization cost almost Rs 30 lakh, and she had to continue spending Rs 10,000 each month for medicines, follow-up consultations, and diagnostics,” [Hindustan times Report](https://www.hindustantimes.com/health-and-fitness/healthcare-in-india-cheap-but-not-for-most-indians/story-0bEJutPTC3krc5GpKBjV4J.html).Each round of chemotherapy and radiation costs her almost Rs 1 lakh, but she didn’t consider AIIMS because the radiotherapy machine there is booked for the next seven months.
 
+## Rise in the current problem during this pandemic
+- Financial distress has been one of the biggest impacts of the COVID 19-induced lockdown.
+
+- According to India Today.”Consumables like PPE kits, masks, face shields, and gloves which used to take up around 10% of the hospital bill, have now increased to 50% and this   has left many struggling to pay hospital bills.”
+
+- Private hospitals in India are overcharging for safety gear in the absence of government regulation -
+  Saima Furqan’s 60-year-old uncle was admitted to Sir Ganga Ram Hospital in Delhi with Covid-19 in April. After 30 days in the private hospital, the family was given a 122-page   bill and charged Rs 16,14,596. What struck Furqan in the bill is that the family was charged a flat rate of Rs 10,000 per day for the personal protective equipment, commonly     known as PPE, worn by medical staff treating her uncle. The family paid Rs 2.9 lakh for PPE alone, which is 18% of their total bill.
+ 
+- Private players
+- Differences across hospitals
+- Discrepancies in pricing
+- Price regulation
+
+This all has become a major issue dropping Indian citizens into financial conditions like taking loans and so many to go below the poverty line.
+
+
+
 
