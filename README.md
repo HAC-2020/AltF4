@@ -58,6 +58,8 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 - [Truffle](https://www.trufflesuite.com/truffle) : A world-class development environment, testing framework and asset pipeline for blockchains
 
+-[Portis](https://www.portis.io/): Making Decentralized Applications accessible to mainstream users and authentication using gmail.
+
 
 
 ## Use Cases
