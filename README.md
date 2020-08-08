@@ -78,7 +78,13 @@ Donation for patients (only patients handle their donation funds)
 - We are planning to reach hospitals and patients who could benefit from each other. Hospitals by getting their medical records data on blockchain and patients by getting access to immutable and unforged medical records asap.
 
 
-
-
-
-
+# Tech Stack
+ - Truffle <code><img height="20" src="https://truffleframework.com/img/favicons/truffle-share.png"></code>
+ - Solidity <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/900px-Solidity_logo.svg.png"></code>
+ - Node <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+ - React <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png"></code>
+ - Bootstrap <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png"></code>
+ - Portis <code><img height="20" src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/wxelfacnxmic4h5dces6"></code>
+ - Web 3 <code><img height="20" src="https://repository-images.githubusercontent.com/24655114/c71c5800-6a8c-11e9-9117-8ec357c9f69e"></code>
+ - Ethereum <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png"></code>
+ - Matic Network <code><img height="20" src="https://cryptologos.cc/logos/matic-network-matic-logo.png"></code>
