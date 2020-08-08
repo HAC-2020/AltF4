@@ -48,7 +48,7 @@ class Admin extends React.Component{
 			<div className={styles.buttonFormDisplay}>
 				<Button variant="info" onClick={this.addPatient}>Add a new Patient</Button>
 				<Button variant="info" onClick={ this.addDoctor }>Add a new Doctor</Button>
-				<Button variant="info" onClick={ this.assignDoctor }>Assign a Doctor</Button>
+				<Button variant="info" onClick={ this.assignDoctor }>Add a new Admin</Button>
 			</div>
 			<br />
 			<br />

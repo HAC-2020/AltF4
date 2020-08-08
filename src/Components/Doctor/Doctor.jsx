@@ -9,7 +9,8 @@ export class Doctor extends React.Component{
         this.state = {
           patientID: "#####",
           patientName: "Rahul Gupta",
-          disease: ""
+          medicalRecordName: "",
+          ipfsHash: ""
           
         };
         this.handleChange = this.handleChange.bind(this);
@@ -29,7 +30,17 @@ export class Doctor extends React.Component{
         // e.g.: send to remote API
         event.preventDefault();
         console.log("state", this.state);
-        
+        this.handleAddMedicalRecord(this.state.patientID, this.state.medicalRecordName, this.state.ipfsHash);
+      }
+
+      //doctor dashboard
+      handleAddMedicalRecord = async (patientId, medicalRecordName, ipfsHash) => {
+        var x = await this.contract.methods.addMedicalRecord(
+          patientId,
+          medicalRecordName,
+          ipfsHash
+        ).send({ from: this.accounts[0] });
+        console.log("Added medical record" + x);
       }
     
       render() {
@@ -45,20 +56,27 @@ export class Doctor extends React.Component{
                 </Form.Text>
                 <Form.Row>
                   <Col>
-                    <Form.Text>
-                        Patient ID: {this.state.patientID}
-                    </Form.Text>
-                  </Col>
-                  <Col>
-                  <Form.Text>
-                        Patient Name: {this.state.patientName}
-                    </Form.Text>
+                    <Form.Control 
+                      name="patientName"
+                      type="text"
+                      placeholder="Enter Patient Name"
+                      onChange={this.handleChange}
+                      required
+                    />
+                    <br />
+                    <Form.Control 
+                      name="patientName"
+                      type="text"
+                      placeholder="Enter Patient Eth Address"
+                      onChange={this.handleChange}
+                      required
+                    />
                   </Col>
                 </Form.Row>
                 <br />
                 <label>Enter Disease</label>
                 <Form.Control
-                    name="disease"
+                    name="medicalRecordName"
                     type="text"
                     placeholder="Enter patient disease"
                     onChange={this.handleChange}

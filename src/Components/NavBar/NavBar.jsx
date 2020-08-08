@@ -40,7 +40,7 @@ export const NavBar = () => {
 						</Nav.Item>
 						<Nav.Item>
 							<label>
-						    	<Nav.Link href="/patientlist" className="NavLink">
+						    	<Nav.Link href="/assigndoctor" className="NavLink">
 									Patient List
 								</Nav.Link>
 						    </label>					 

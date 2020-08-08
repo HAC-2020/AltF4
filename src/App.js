@@ -1,16 +1,23 @@
 import React, { Component } from "react";
-import SimpleStorageContract from "./contracts/MedicalChain.json";
+import SimpleStorageContract from "./contracts/SerugoMedico.json";
 import getWeb3 from "./getWeb3";
 import { NavBar } from './Components/NavBar/NavBar';
 import { Home } from './Components/Home/Home';
 import { Doctor } from './Components/Doctor/Doctor';
 import { Donate } from './Components/Donate/Donate.jsx';
-import { AssignDoctor } from './Components/AssignDoctor/AssignDoctor.jsx';
+import { AssignDoctor } from './Components/AssignDoctor/AssignDoctor';
 import Admin from './Components/Admin/Admin';
 import Footer from './Components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Portis from '@portis/web3';
-import Web3 from 'web3';
+// import Portis from '@portis/web3';
+// import Web3 from 'web3';
+
+const IPFS = require('ipfs-api');
+const ipfs = new IPFS({
+  host: 'ipfs.infura.io',
+  port: 5001,
+  protocol: 'https'
+});
 
 class App extends Component {
   constructor(){
@@ -57,7 +64,7 @@ class App extends Component {
       // portis.isLoggedIn().then(({ error, result }) => {
       //   console.log(error, result);
       // });
-      
+      // this.handleAddNewAdmin(0xb7d2662Df637fFDFB4de27D58126802477B96b6d);
       // alert("Donor data retrieved from contract");
     } catch (error) {
       // Catch any errors for any of the above operations.
@@ -213,6 +220,35 @@ class App extends Component {
       console.log(err);
     }
   }
+
+  //medical record file upload functions
+  //to be used is addNewMedicalRecord page
+    //capture medical record file
+    captureMedicalFile = (event) => {
+      event.stopPropagation()
+      event.preventDefault()
+      const file = event.target.files[0]
+      let reader = new window.FileReader()
+      reader.readAsArrayBuffer(file)
+      reader.onloadend = () => this.convertToBuffer(reader)
+    };
+    //converting file to buffer
+    convertToBuffer = async (reader) => {
+      const buffer = await Buffer.from(reader.result);
+      this.setState({ buffer });
+    };
+    //upload file on ipfs
+    handleUploadToIpfs = async () => {
+      try {
+        var x = await ipfs.add(this.state.buffer, (err, ipfsHash) => {
+          console.log(err, ipfsHash);
+          //setState by setting ipfsHash to ipfsHash[0].hash 
+          this.setState({ ipfsHash: ipfsHash[0].hash });
+        })
+      } catch (err) {
+        console.log(err);
+      }
+    }
 
   render() {
     // if (!this.state.web3) {
