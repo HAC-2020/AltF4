@@ -37,6 +37,13 @@ export const NavBar = () => {
 									Donate
 								</Nav.Link>
 						    </label>					 
+						</Nav.Item>
+						<Nav.Item>
+							<label>
+						    	<Nav.Link href="/patientlist" className="NavLink">
+									Patient List
+								</Nav.Link>
+						    </label>					 
 						</Nav.Item>	
 						<Nav.Item>
 							<label>

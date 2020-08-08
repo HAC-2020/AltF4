@@ -9,10 +9,29 @@ class PatientForm extends React.Component {
         age: null,
         sex: "",
         email: "",
+        patientAddress: "",
         phoneNo: null
       };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    //admin dashboard
+    handleAddNewpatient = async (patientName, email, phoneNo, patientAddress) => {
+      try {
+        var x = await this.contract.methods.addNewPatient(
+          patientName,
+          email,
+          phoneNo,
+          patientAddress
+        )
+        .send({
+          from: this.accounts[0]
+        });
+        console.log("New Patient Added" + x);
+      } catch (err) {
+        console.log(err);
+      }  
     }
   
     handleChange(event) {
@@ -28,6 +47,7 @@ class PatientForm extends React.Component {
       // e.g.: send to remote API
       event.preventDefault();
       console.log("state", this.state);
+      this.handleAddNewpatient(this.state.patientName, this.state.email, this.state.phoneNo, this.state.patientAddress);
     }
   
     render() {
@@ -87,9 +107,15 @@ class PatientForm extends React.Component {
                   required
                 />
               </Form.Group>
-              <Form.File />
-              <Form.Label>Patient's Eth Address</Form.Label>
-              <Form.Text className="text-muted">################</Form.Text>
+              <Form.Group>
+                <Form.Control
+                  name="patientAddress"
+                  type="text"
+                  placeholder="Patient Eth Address"
+                  onChange={this.handleChange}
+                  required
+                />
+              </Form.Group>
               <Form.Group>
                 <Form.Check
                   type="checkbox"

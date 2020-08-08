@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import styles from './Admin.module.css';
-import DisplayForms from './DisplayForms.jsx';
+import DisplayForms from '../Forms/DisplayForms.jsx';
 
 class Admin extends React.Component{
 	constructor(props) {
@@ -11,10 +11,8 @@ class Admin extends React.Component{
 			activeForm: "",
 			web3: props.web3
 		}
-		
-		// this.addPatient = this.addPatient.bind(this);
-		// this.addDoctor = this.addDoctor.bind(this);
-		// this.assignDoctor = this.assignDoctor.bind(this);
+		this.accounts = props.accounts;
+		this.contract = props.contract;
 	}
 	
 	addPatient = async => {
@@ -43,6 +41,7 @@ class Admin extends React.Component{
 		
 		return (
 		<div>
+			<center><h2 className="display-2">Patient List</h2></center>
 			<center><h2 className="display-2">Roles that Admin can perform</h2></center>
 			<br />
 			<br />

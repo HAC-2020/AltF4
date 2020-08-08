@@ -1,13 +1,13 @@
 import React from 'react';
-import { Form, Col, Button, Jumbotron} from 'react-bootstrap';
+import { Form, Button, Jumbotron, Col } from 'react-bootstrap';
 
-export class AddDoctorForm extends React.Component{
+export class AssignDoctorForm extends React.Component{
     constructor() {
         super();
         this.state = {
-          docName: "",
-          ethAddress: null,
-          specialization: ""
+          docAddress: "",
+          patientId: "",
+          patientAddress: ""
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -26,14 +26,26 @@ export class AddDoctorForm extends React.Component{
         // e.g.: send to remote API
         event.preventDefault();
         console.log("state", this.state);
-        
+        this.handleAssignDoctor(this.state.docAddress, this.state.patientId, this.state.patientAddress);
+      }
+
+      //admin dashboard show all patients me jo patiens ka data dikhega, 
+      //har patient data card me ye function call karne k lie button hoga
+      handleAssignDoctor = async (docAddress, patientId, patientAddress) => {
+        try {
+          var x = await this.contract.methods.assignDoctor(docAddress, patientId, patientAddress)
+          .send({ from: this.accounts[0] });
+          console.log("Doc Assigned" + x);
+        } catch (err) {
+          console.log(err);
+        }
       }
     
       render() {
         return (
           <div className="container-fluid">
             <Jumbotron>
-              <h3 className="display-5">Add a new Doctor</h3>
+              <h3 className="display-5">Assign a Doctor</h3>
               <Form>
                 <Form.Text className="text-muted">
                   We'll never share your details with anyone else.
@@ -41,33 +53,18 @@ export class AddDoctorForm extends React.Component{
                 <Form.Row>
                   <Col>
                     <Form.Control
-                      name="DocName"
+                      name="DocID"
                       type="text"
-                      placeholder="Doctor name"
-                      onChange={this.handleChange}
-                      required
-                    />
-                  </Col>
-                  <Col>
-                    <Form.Control
-                      name="EthAdd"
-                      type="text"
-                      placeholder="Enter Doctor Eth Address"
+                      placeholder="Enter Doctor ID"
                       onChange={this.handleChange}
                       required
                     />
                   </Col>
                 </Form.Row>
                 <br />
-                <Form.Group>
-                  <Form.Control
-                    name="specialization"
-                    type="text"
-                    placeholder="Enter Doctor Specialization"
-                    onChange={this.handleChange}
-                    required
-                  />
-                </Form.Group>
+                <Form.Text>Patient ID: {this.state.patientID}</Form.Text>
+                <Form.Text>Patient Address: {this.state.patientAdd}</Form.Text>
+                <br />
                 <Form.Group>
                   <Form.Check
                     type="checkbox"
@@ -75,7 +72,7 @@ export class AddDoctorForm extends React.Component{
                   />
                 </Form.Group>
                 <Button variant="primary" type="submit" onClick={this.handleSubmit}>
-                  Add
+                  Assign Doctor
                 </Button>
               </Form>
             </Jumbotron>

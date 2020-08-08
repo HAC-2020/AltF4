@@ -1,13 +1,13 @@
 import React from 'react';
-import { Form, Button, Jumbotron, Col } from 'react-bootstrap';
+import { Form, Col, Button, Jumbotron} from 'react-bootstrap';
 
-export class AssignDoctorForm extends React.Component{
+export class AddDoctorForm extends React.Component{
     constructor() {
         super();
         this.state = {
           docName: "",
-          ethAddress: null,
-          specialization: ""
+          docAddress: null,
+          docSpec: ""
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -26,7 +26,22 @@ export class AssignDoctorForm extends React.Component{
         // e.g.: send to remote API
         event.preventDefault();
         console.log("state", this.state);
-        
+        this.handleAddNewDoctor(this.state.docName, this.state.docAddress, this.state.docSpec );
+      }
+
+      //admin dashboard
+      handleAddNewDoctor = async (docName, docAddress, docSpec) => {
+        try {
+          var x = await this.contract.methods(
+            docName,
+            docAddress,
+            docSpec
+          )
+            .send({ from: this.accounts[0] });
+          console.log("Added new doctor" + x);
+        } catch (err) {
+          console.log(err);
+        }
       }
     
       render() {
