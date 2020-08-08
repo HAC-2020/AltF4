@@ -22,14 +22,14 @@ class App extends Component {
 
       // this.biconomy = new Biconomy(Web3, {apiKey: "LbOkM_BNx.b0a7a913-3db2-420e-a1d6-9ba4c8485367"});
       // const Web3 = new Web3(this.biconomy);
-      const customNode = {
-        nodeUrl: 'https://rpc-mumbai.matic.today/',
-        chainId: 80001,
-      };
+      // const customNode = {
+      //   nodeUrl: 'https://rpc-mumbai.matic.today/',
+      //   chainId: 80001,
+      // };
       
-      const portis = new Portis('a7d2b587-1e58-465a-8b1e-2456836445bc', customNode);
-      this.web3 = new Web3(portis.provider);
-      // this.web3 = await getWeb3();
+      // const portis = new Portis('a7d2b587-1e58-465a-8b1e-2456836445bc', customNode);
+      // this.web3 = new Web3(portis.provider);
+      this.web3 = await getWeb3();
         // Use web3 to get the user's accounts.
         this.accounts = await this.web3.eth.getAccounts();
         console.log("Accounts from metamask: " + this.accounts);
@@ -53,9 +53,9 @@ class App extends Component {
         contractAddress: SimpleStorageContract.networks[this.networkId].address
       });
       console.log("Web3 Obj : " + this.state.web3);
-      portis.isLoggedIn().then(({ error, result }) => {
-        console.log(error, result);
-      });
+      // portis.isLoggedIn().then(({ error, result }) => {
+      //   console.log(error, result);
+      // });
       
       // alert("Donor data retrieved from contract");
     } catch (error) {

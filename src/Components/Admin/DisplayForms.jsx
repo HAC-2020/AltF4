@@ -1,5 +1,5 @@
 import React from 'react';
-import { PatientForm } from './PatientForm.jsx';
+import PatientForm from './PatientForm';
 import { AddDoctorForm } from './AddDoctorForm.jsx';
 import { AssignDoctorForm } from './AssignDoctorForm.jsx';
 const DisplayForms = ({ activeForm }) => {
