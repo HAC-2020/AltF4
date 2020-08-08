@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/altf4/static/css/main.8d8ffbd9.chunk.css",
-    "main.js": "/altf4/static/js/main.a4bc61ec.chunk.js",
-    "main.js.map": "/altf4/static/js/main.a4bc61ec.chunk.js.map",
+    "main.css": "/altf4/static/css/main.bed89ca3.chunk.css",
+    "main.js": "/altf4/static/js/main.b0e1d7c9.chunk.js",
+    "main.js.map": "/altf4/static/js/main.b0e1d7c9.chunk.js.map",
     "runtime-main.js": "/altf4/static/js/runtime-main.e8d09f10.js",
     "runtime-main.js.map": "/altf4/static/js/runtime-main.e8d09f10.js.map",
     "static/css/2.e23972cb.chunk.css": "/altf4/static/css/2.e23972cb.chunk.css",
-    "static/js/2.ff0d6783.chunk.js": "/altf4/static/js/2.ff0d6783.chunk.js",
-    "static/js/2.ff0d6783.chunk.js.map": "/altf4/static/js/2.ff0d6783.chunk.js.map",
+    "static/js/2.1c6f301c.chunk.js": "/altf4/static/js/2.1c6f301c.chunk.js",
+    "static/js/2.1c6f301c.chunk.js.map": "/altf4/static/js/2.1c6f301c.chunk.js.map",
     "index.html": "/altf4/index.html",
-    "precache-manifest.aca35fb1d17ba7227b95216059dc5e17.js": "/altf4/precache-manifest.aca35fb1d17ba7227b95216059dc5e17.js",
+    "precache-manifest.032743b84d87f9d89ffe4e5132d026ec.js": "/altf4/precache-manifest.032743b84d87f9d89ffe4e5132d026ec.js",
     "service-worker.js": "/altf4/service-worker.js",
     "static/css/2.e23972cb.chunk.css.map": "/altf4/static/css/2.e23972cb.chunk.css.map",
-    "static/css/main.8d8ffbd9.chunk.css.map": "/altf4/static/css/main.8d8ffbd9.chunk.css.map",
-    "static/js/2.ff0d6783.chunk.js.LICENSE.txt": "/altf4/static/js/2.ff0d6783.chunk.js.LICENSE.txt",
+    "static/css/main.bed89ca3.chunk.css.map": "/altf4/static/css/main.bed89ca3.chunk.css.map",
+    "static/js/2.1c6f301c.chunk.js.LICENSE.txt": "/altf4/static/js/2.1c6f301c.chunk.js.LICENSE.txt",
     "static/media/ManageCard.module.css": "/altf4/static/media/CardBg.d816a8b0.jpg",
     "static/media/Home.module.css": "/altf4/static/media/SeguroMedico.df56a2fe.png",
     "static/media/agreements.svg": "/altf4/static/media/agreements.771a0040.svg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.e8d09f10.js",
     "static/css/2.e23972cb.chunk.css",
-    "static/js/2.ff0d6783.chunk.js",
-    "static/css/main.8d8ffbd9.chunk.css",
-    "static/js/main.a4bc61ec.chunk.js"
+    "static/js/2.1c6f301c.chunk.js",
+    "static/css/main.bed89ca3.chunk.css",
+    "static/js/main.b0e1d7c9.chunk.js"
   ]
 }
