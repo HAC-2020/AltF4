@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SimpleStorageContract from "./contracts/SimpleStorage.json";
+import SimpleStorageContract from "./contracts/MedicalChain.json";
 import getWeb3 from "./getWeb3";
 import { NavBar } from './Components/NavBar/NavBar';
 import { Home } from './Components/Home/Home';
@@ -27,7 +27,7 @@ class App extends Component {
         chainId: 80001,
       };
       
-      const portis = new Portis('9881db45-4048-4c21-804d-805402c721db', customNode);
+      const portis = new Portis('a7d2b587-1e58-465a-8b1e-2456836445bc', customNode);
       this.web3 = new Web3(portis.provider);
       // this.web3 = await getWeb3();
         // Use web3 to get the user's accounts.

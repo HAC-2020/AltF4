@@ -890,12 +890,12 @@
     "80001": {
       "events": {},
       "links": {},
-      "address": "0x5dE34ddc546Bc0E56cD18d8E63A14B58e23684E9",
-      "transactionHash": "0xdb26d245c226ce91f85ebc5766c0c52b7b645206d9be030ebe253736a2eeb014"
+      "address": "0xC6a8c4a02fDfe8a823F6B34d3035A6096413776D",
+      "transactionHash": "0x9f4174cbf897884f3cd288275c8eb9706560dc5b4a6b373b1ea85f7a0bf9fa70"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-08-05T17:55:48.113Z",
+  "updatedAt": "2020-08-08T09:40:12.295Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

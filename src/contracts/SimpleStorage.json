@@ -557,12 +557,12 @@
     "80001": {
       "events": {},
       "links": {},
-      "address": "0xdBc241C408096bB3d53532633D83BAABF5089157",
-      "transactionHash": "0x5e7929e3afd8f5a2eeb59f5217db527ce5fb9191a23a4256234306e22531cb6f"
+      "address": "0xd37F4720127716216793F960BcEDe76c2Db15007",
+      "transactionHash": "0xee3be7cbd51f2fee988d4e9463e19908b02943ebb33cae8a13e3de0b05309a79"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-08-05T17:55:48.111Z",
+  "updatedAt": "2020-08-08T09:40:12.293Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
