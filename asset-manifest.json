@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/altf4/static/css/main.08931909.chunk.css",
-    "main.js": "/altf4/static/js/main.24463a1f.chunk.js",
-    "main.js.map": "/altf4/static/js/main.24463a1f.chunk.js.map",
+    "main.css": "/altf4/static/css/main.8d8ffbd9.chunk.css",
+    "main.js": "/altf4/static/js/main.a4bc61ec.chunk.js",
+    "main.js.map": "/altf4/static/js/main.a4bc61ec.chunk.js.map",
     "runtime-main.js": "/altf4/static/js/runtime-main.e8d09f10.js",
     "runtime-main.js.map": "/altf4/static/js/runtime-main.e8d09f10.js.map",
-    "static/css/2.ed439b8d.chunk.css": "/altf4/static/css/2.ed439b8d.chunk.css",
-    "static/js/2.b22d1144.chunk.js": "/altf4/static/js/2.b22d1144.chunk.js",
-    "static/js/2.b22d1144.chunk.js.map": "/altf4/static/js/2.b22d1144.chunk.js.map",
+    "static/css/2.e23972cb.chunk.css": "/altf4/static/css/2.e23972cb.chunk.css",
+    "static/js/2.ff0d6783.chunk.js": "/altf4/static/js/2.ff0d6783.chunk.js",
+    "static/js/2.ff0d6783.chunk.js.map": "/altf4/static/js/2.ff0d6783.chunk.js.map",
     "index.html": "/altf4/index.html",
-    "precache-manifest.9e44bbee4a1ce4050513d7d4ffac0290.js": "/altf4/precache-manifest.9e44bbee4a1ce4050513d7d4ffac0290.js",
+    "precache-manifest.aca35fb1d17ba7227b95216059dc5e17.js": "/altf4/precache-manifest.aca35fb1d17ba7227b95216059dc5e17.js",
     "service-worker.js": "/altf4/service-worker.js",
-    "static/css/2.ed439b8d.chunk.css.map": "/altf4/static/css/2.ed439b8d.chunk.css.map",
-    "static/css/main.08931909.chunk.css.map": "/altf4/static/css/main.08931909.chunk.css.map",
-    "static/js/2.b22d1144.chunk.js.LICENSE.txt": "/altf4/static/js/2.b22d1144.chunk.js.LICENSE.txt",
+    "static/css/2.e23972cb.chunk.css.map": "/altf4/static/css/2.e23972cb.chunk.css.map",
+    "static/css/main.8d8ffbd9.chunk.css.map": "/altf4/static/css/main.8d8ffbd9.chunk.css.map",
+    "static/js/2.ff0d6783.chunk.js.LICENSE.txt": "/altf4/static/js/2.ff0d6783.chunk.js.LICENSE.txt",
     "static/media/ManageCard.module.css": "/altf4/static/media/CardBg.d816a8b0.jpg",
-    "static/media/Home.module.css": "/altf4/static/media/SeguroMedico.df56a2fe.png"
+    "static/media/Home.module.css": "/altf4/static/media/SeguroMedico.df56a2fe.png",
+    "static/media/agreements.svg": "/altf4/static/media/agreements.771a0040.svg",
+    "static/media/mdb.css": "/altf4/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/contract.svg": "/altf4/static/media/contract.6efe8c9c.svg",
+    "static/media/all.min.css": "/altf4/static/media/fa-solid-900.ee09ad75.woff",
+    "static/media/payments.svg": "/altf4/static/media/payments.8667f767.svg",
+    "static/media/secure.svg": "/altf4/static/media/secure.9ff7a827.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8d09f10.js",
-    "static/css/2.ed439b8d.chunk.css",
-    "static/js/2.b22d1144.chunk.js",
-    "static/css/main.08931909.chunk.css",
-    "static/js/main.24463a1f.chunk.js"
+    "static/css/2.e23972cb.chunk.css",
+    "static/js/2.ff0d6783.chunk.js",
+    "static/css/main.8d8ffbd9.chunk.css",
+    "static/js/main.a4bc61ec.chunk.js"
   ]
 }
