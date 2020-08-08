@@ -89,6 +89,14 @@ Donation for patients (only patients handle their donation funds)
 
 - How to integrate portis wallet.
 
+## Market Opportunity
+ - The healthcare market can increase three-fold to Rs 8.6 trillion (US$ 133.44 billion) by 2022.
+
+-  Indian medical tourism market is growing at 18 per cent y-o-y and is expected to reach US$ 9 billion by 2020. There is a significant scope for enhancing healthcare services considering that healthcare spending as a percentage of Gross Domestic Product (GDP) is rising. The Government’s expenditure on healthcare sector has grown to 1.6 per cent of the GDP in FY20BE from 1.3 per cent in FY16.
+
+- Health insurance is gaining momentum in India. Gross direct premium income underwritten by health insurance grew 17.16 per cent y-o-y to Rs 51,637.84 crore (US$ 7.39 billion) in FY20 
+- Cited from [IBEF](https://www.ibef.org/industry/healthcare-india.aspx#:~:text=Market%20Size,US%24%209%20billion%20by%202020)
+
 
 ## What's next for Seguro Medico
 - We are planning to reach hospitals and patients who could benefit from each other. Hospitals by getting their medical records data on blockchain and patients by getting access to immutable and unforged medical records asap.
