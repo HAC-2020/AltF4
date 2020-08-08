@@ -8,28 +8,35 @@ class Admin extends React.Component{
 		super(props);
 		this.state = {
 			x: "",
-			web3: null
-		}
-		this.setState = {
+			activeForm: "",
 			web3: props.web3
 		}
 		
-		this.addPatient = this.addPatient.bind(this);
-		this.addDoctor = this.addDoctor.bind(this);
-		this.assignDoctor = this.assignDoctor.bind(this);
+		// this.addPatient = this.addPatient.bind(this);
+		// this.addDoctor = this.addDoctor.bind(this);
+		// this.assignDoctor = this.assignDoctor.bind(this);
 	}
 	
-	addPatient(){
+	addPatient = async => {
 		console.log('add new patient');
-		this.setState({ x:"Patient"});
+		this.setState({
+			 x:"Patient",
+			 activeForm: "PatientForm"
+		});
 	}
-	addDoctor(){
+	addDoctor = async => {
 		console.log("add new doctor");
-		this.setState({ x:"Add Doctor"});
+		this.setState({
+			 x:"Add Doctor",
+			 activeForm: "AddDoctorForm"
+		});
 	}
-	assignDoctor(){
+	assignDoctor = async => {
 		console.log("Assign a new doctor");
-		this.setState({ x:"Assign Doctor"});
+		this.setState({
+			 x:"Assign Doctor",
+			 activeForm: "AssignDoctorForm"
+		});
 	}
 
 	render(){
@@ -37,15 +44,16 @@ class Admin extends React.Component{
 		return (
 		<div>
 			<center><h2 className="display-2">Roles that Admin can perform</h2></center>
+			<br />
+			<br />
 			<div className={styles.buttonFormDisplay}>
 				<Button variant="info" onClick={this.addPatient}>Add a new Patient</Button>
 				<Button variant="info" onClick={ this.addDoctor }>Add a new Doctor</Button>
 				<Button variant="info" onClick={ this.assignDoctor }>Assign a Doctor</Button>
 			</div>
-			<center>
-				<p>{this.state.x}</p>
-			</center>
-			<DisplayForms />
+			<br />
+			<br />
+			<DisplayForms activeForm={this.state.activeForm}/>
 		</div>
 	)
 	}
