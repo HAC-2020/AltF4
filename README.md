@@ -46,6 +46,20 @@ Seguro Medico provides immutable management and access of medical records and fi
 -  Finally, each and every transaction that takes place on this application, along with its timestamp, is stored with utmost safety on the Blockchain. Thus ensuring complete        immutability of the data.
 
 
+## How we built it
+
+- [React](https://reactjs.org/) : For designing our dynamic web app
+
+- [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) : For styling and making our app responsive
+
+- [Solidity](https://solidity.readthedocs.io/en/v0.7.0/): For implementing the smart contract
+
+- [Matic](https://matic.network/) : Deployment of smart contract
+
+- [Truffle](https://www.trufflesuite.com/truffle) : A world-class development environment, testing framework and asset pipeline for blockchains
+
+
+
 ## Potential Users
 ### Patients -
 For storing their medical records and on the blockchain.       
