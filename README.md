@@ -60,8 +60,8 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 
 
-## Potential Users
-### Patients -
+## Use Cases
+
 For storing their medical records and on the blockchain.       
 Donation for patients (only patients handle their donation funds)                                                                                                           
  
