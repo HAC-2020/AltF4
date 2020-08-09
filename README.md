@@ -115,7 +115,16 @@ Donation for patients (only patients handle their donation funds)
 ## What's next for Seguro Medico
 - We are planning to reach hospitals and patients who could benefit from each other. Hospitals by getting their medical records data on blockchain and patients by getting access to immutable and unforged medical records asap.
 
-## You find it interesting, have a look on you can also run this on your local machine
+## Interesting, have a look on how you can also run this on your local machine and make changes
+
+- Run these command in your command line
+```
+git clone git@github.com:HAC-2020/AltF4.git
+cd AltF4
+npm install 
+npm start
+
+```
 
 # Tech Stack
  - Truffle <code><img height="20" src="https://truffleframework.com/img/favicons/truffle-share.png"></code>
