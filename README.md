@@ -117,7 +117,7 @@ Donation for patients (only patients handle their donation funds)
 
 ## :sparkles: Found Interesting, run it locally in just few line of code.
 
-- Run these command in your command line
+- Run these commands
 ```
 git clone git@github.com:HAC-2020/AltF4.git
 cd AltF4
