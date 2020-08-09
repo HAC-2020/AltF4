@@ -8,17 +8,17 @@
 # Seguro Medico
 A platform that provides immutable medical records and financial assistance facility for patients(crowdfunding)
 
-## Inspiration
+## 🤔 Inspiration
 
 With the advancement of technology and medical science, not every patient can afford the costly medical facilities. According to a CarePayment Research Survey, it was quite clearly found that almost 64% of all the patients in America either avoids or delays any medical care because of the high cost. [Business Wire](https://www.businesswire.com/news/home/20180214006069/en/New-CarePayment-Research-Shows-Americans-Can%E2%80%99t-Afford)
 
 And these statistics are even worse for many other underdeveloped countries like India. Low on cost, high on quality of care, and with a wide range of treatments available — the Indian healthcare system draws over 1.3 million patients from abroad each year. The sector is expected to generate $3 billion by the end of 2013. In Harvard Business Review’s November issue, a study by authors Vijay Govindarajan and Ravi Ramamurti gave private hospitals in India a thumbs-up for “delivering world-class health care, affordably”. Yet, 99% of India’s population cannot afford these services, shows World Bank data. Each year, 39 million people are pushed into poverty by out-of-pocket payments for healthcare, with households on average devoting 5.8% of their expenditures to medical care, the data reveals. [Hindustan times Report](https://www.hindustantimes.com/health-and-fitness/healthcare-in-india-cheap-but-not-for-most-indians/story-0bEJutPTC3krc5GpKBjV4J.html)
 
-## Pain points
+## 😖 Pain points
 
 A 33-year-old software engineer working in the private sector lost her savings of eight years in a day when her father, 65, underwent a liver transplant in a private hospital. “Not only did my savings go, but I also had to borrow money from the family to foot the bill. The procedure and hospitalization cost almost Rs 30 lakh, and she had to continue spending Rs 10,000 each month for medicines, follow-up consultations, and diagnostics,”.Each round of chemotherapy and radiation costs her almost Rs 1 lakh, but she didn’t consider AIIMS because the radiotherapy machine there is booked for the next seven months. [Hindustan times Report](https://www.hindustantimes.com/health-and-fitness/healthcare-in-india-cheap-but-not-for-most-indians/story-0bEJutPTC3krc5GpKBjV4J.html)
 
-## Rise in the current problem during this pandemic
+## 😯 Rise in the current problem during this pandemic
 - Financial distress has been one of the biggest impacts of the COVID 19-induced lockdown.
 
 - According to India Today.”Consumables like PPE kits, masks, face shields, and gloves which used to take up around 10% of the hospital bill, have now increased to 50% and this   has left many struggling to pay hospital bills.”
@@ -33,7 +33,7 @@ A 33-year-old software engineer working in the private sector lost her savings o
 
 This all has become a major issue dropping Indian citizens into financial conditions like taking loans and so many to go below the poverty line.
 
-## What it does
+## ✅ What it does
 
 Seguro Medico provides immutable management and access of medical records and financial assistance to patients.
 
@@ -45,8 +45,20 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 -  Finally, each and every transaction that takes place on this application, along with its timestamp, is stored with utmost safety on the Blockchain. Thus ensuring complete        immutability of the data.
 
+## 🌟 Features
 
-## How we built it
+- Admin can add patients.
+
+- Admin can add doctors.
+
+- Admin can assign doctor to patients
+
+- Doctor can add medical records to assigned patients.
+
+- Medical records of a patient have a complete history.
+
+
+## 🛠️ How we built it
 
 - [React](https://reactjs.org/) : For designing our dynamic web app
 
@@ -62,12 +74,12 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 
 
-## Use Cases
+## 🔎 Use Cases
 
 For storing their medical records and on the blockchain.       
 Donation for patients (only patients handle their donation funds)                                                                                                           
  
-## Challenges we ran into
+## ❌ Challenges we ran into
 - Integrating Portis Wallet.
 
 - Connecting blockchain with react app.
@@ -77,21 +89,21 @@ Donation for patients (only patients handle their donation funds)
 - Working in teams remotely.
 
 
-## Accomplishments that I'm proud of
+## 🏆 Accomplishments that I'm proud of
 
 - Able to build a working platform with great teamwork in such a short time.
 
 - Being able to provide help to patients in need of financial help.
 
 
-## What we learned
+## 📚 What we learned
 - Learned how to divide tasks as a team and be accountable for it, setting report time.
 
 - How to integrate portis wallet.
 
 - How to learn and implement new tech hacks quickly.
 
-## Market Opportunity
+## 💹 Market Opportunity
  - The healthcare market can increase three-fold to Rs 8.6 trillion (US$ 133.44 billion) by 2022.
 
 -  Indian medical tourism market is growing at 18 per cent y-o-y and is expected to reach US$ 9 billion by 2020. There is a significant scope for enhancing healthcare services considering that healthcare spending as a percentage of Gross Domestic Product (GDP) is rising. The Government’s expenditure on healthcare sector has grown to 1.6 per cent of the GDP in FY20BE from 1.3 per cent in FY16.
@@ -100,11 +112,21 @@ Donation for patients (only patients handle their donation funds)
 - Cited from [IBEF](https://www.ibef.org/industry/healthcare-india.aspx#:~:text=Market%20Size,US%24%209%20billion%20by%202020)
 
 
-## What's next for Seguro Medico
+## ⚡ What's next for Seguro Medico
 - We are planning to reach hospitals and patients who could benefit from each other. Hospitals by getting their medical records data on blockchain and patients by getting access to immutable and unforged medical records asap.
 
+## :sparkles: Found Interesting, run it locally in just few line of code.
 
-# Tech Stack
+- Run these commands
+```
+git clone git@github.com:HAC-2020/AltF4.git
+cd AltF4
+cd client
+npm install 
+npm start
+```
+
+# 👨🏻‍💻 Tech Stack
  - Truffle <code><img height="20" src="https://truffleframework.com/img/favicons/truffle-share.png"></code>
  - Solidity <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/900px-Solidity_logo.svg.png"></code>
  - Node <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
