@@ -137,5 +137,13 @@ npm start
  - Ethereum <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png"></code>
  - Matic Network <code><img height="20" src="https://cryptologos.cc/logos/matic-network-matic-logo.png"></code>
  
+ # Screenshots of our app
+ <div>
+ <img src="https://github.com/HAC-2020/AltF4/blob/master/images/ss1.JPG" height="300" width="300>
+ <img src="https://github.com/HAC-2020/AltF4/blob/master/images/ss3.JPG" height="300" width="300>
+ <img src="https://github.com/HAC-2020/AltF4/blob/master/images/ss4.JPG" height="300" width="300>
+ <img src="https://github.com/HAC-2020/AltF4/blob/master/images/ss4.JPG" height="300" width="300> 
+ </div>
+ 
  
  [Click here to see live demo](https://snh3003.github.io/altf4/)
