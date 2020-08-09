@@ -49,7 +49,7 @@ class App extends Component {
         SimpleStorageContract.abi,
         SimpleStorageContract.networks[this.networkId] && SimpleStorageContract.networks[this.networkId].address,
         );
-        console.log("Contract Instance : " + this.donorInstance);
+        console.log("Contract Instance : " + this.contract);
          
         // await this.handleDonorCount();
 
@@ -259,11 +259,11 @@ class App extends Component {
         <NavBar />
         <Router>
           <Switch>
-            <Route exact path='/' component={() => <Home contract={this.contract} accounts = {this.accounts} web3={this.state.web3}/>} />
-            <Route path="/doctor" component={() => <Doctor contract={this.contract} accounts = {this.accounts} web3={this.state.web3}/>} />
-            <Route path="/admin" component={() => <Admin contract={this.contract} accounts = {this.accounts}  web3={this.state.web3} />} />
-            <Route path="/donate" component={() => <Donate contract={this.contract} accounts = {this.accounts} web3={this.state.web3} />} />
-            <Route path="/assigndoctor" component={() => <AssignDoctor contract={this.contract} accounts = {this.accounts} web3={this.state.web3} />} />
+            <Route exact path='/altf4' component={() => <Home contract={this.contract} accounts = {this.accounts} web3={this.state.web3}/>} />
+            <Route path="/altf4/doctor" component={() => <Doctor contract={this.contract} accounts = {this.accounts} web3={this.state.web3}/>} />
+            <Route path="/altf4/admin" component={() => <Admin contract={this.contract} accounts = {this.accounts}  web3={this.state.web3} />} />
+            <Route path="/altf4/donate" component={() => <Donate contract={this.contract} accounts = {this.accounts} web3={this.state.web3} />} />
+            <Route path="/altf4/assigndoctor" component={() => <AssignDoctor contract={this.contract} accounts = {this.accounts} web3={this.state.web3} />} />
           </Switch>
         </Router>
         <Footer />

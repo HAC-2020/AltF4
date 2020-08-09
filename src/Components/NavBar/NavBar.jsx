@@ -10,7 +10,7 @@ export const NavBar = () => {
 					src="https://img.icons8.com/color/48/000000/health-book.png"
 					width='40px' height='40px'
 				/>
-				Serguro Medico
+				Seguro Medico
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
@@ -18,7 +18,7 @@ export const NavBar = () => {
 					<Nav className="ml-auto">
 						<Nav.Item>
 						    <label>
-						    	<Nav.Link href="/" className="NavLink">
+						    	<Nav.Link href="/altf4" className="NavLink">
 									Home
 								</Nav.Link>
 						    </label>
@@ -26,28 +26,28 @@ export const NavBar = () => {
 						</Nav.Item>
 						<Nav.Item>
 							<label>
-						    	<Nav.Link href="/doctor" className="NavLink">
+						    	<Nav.Link href="/altf4/doctor" className="NavLink">
 									Doctor
 								</Nav.Link>
 						    </label>						 
 						</Nav.Item>
 						<Nav.Item>
 							<label>
-						    	<Nav.Link href="/donate" className="NavLink">
+						    	<Nav.Link href="/altf4/donate" className="NavLink">
 									Donate
 								</Nav.Link>
 						    </label>					 
 						</Nav.Item>
 						<Nav.Item>
 							<label>
-						    	<Nav.Link href="/assigndoctor" className="NavLink">
+						    	<Nav.Link href="/altf4/assigndoctor" className="NavLink">
 									Patient List
 								</Nav.Link>
 						    </label>					 
 						</Nav.Item>	
 						<Nav.Item>
 							<label>
-						    	<Nav.Link href="/admin" className="NavLink">
+						    	<Nav.Link href="/altf4/admin" className="NavLink">
 									Admin
 								</Nav.Link>
 						    </label>					 
