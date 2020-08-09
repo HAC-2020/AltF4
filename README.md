@@ -121,6 +121,7 @@ Donation for patients (only patients handle their donation funds)
 ```
 git clone git@github.com:HAC-2020/AltF4.git
 cd AltF4
+cd client
 npm install 
 npm start
 ```
