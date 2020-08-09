@@ -148,7 +148,9 @@ npm start
  
  
  [Click here to see live demo](https://snh3003.github.io/altf4/)
+ 
  [Click here to see our presentation slides](https://drive.google.com/file/d/1ON862rKp93IkbSzzBWTMLiCwp30rokCj/view)
+ 
  [Click here to see our working video](https://www.youtube.com/watch?v=DIQAlmVtLt8&feature=youtu.be)
  
  ### Future modifications:
