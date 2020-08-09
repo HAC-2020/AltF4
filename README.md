@@ -115,7 +115,7 @@ Donation for patients (only patients handle their donation funds)
 ## What's next for Seguro Medico
 - We are planning to reach hospitals and patients who could benefit from each other. Hospitals by getting their medical records data on blockchain and patients by getting access to immutable and unforged medical records asap.
 
-## Interesting, have a look on how you can also run this on your local machine and make changes
+## :sparkles: Found Interesting, run it locally in just few line of code.
 
 - Run these command in your command line
 ```
