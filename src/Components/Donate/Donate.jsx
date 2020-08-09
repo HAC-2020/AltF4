@@ -41,7 +41,7 @@ export class Donate extends React.Component{
     //button in every public medical record to donate
     handleDonateFunds = async (id) => {
         try {
-            alert('check 1');
+            
         var x = await this.contract.methods.donateFunds(id)
         .send({
             from: this.accounts[0],
@@ -63,10 +63,8 @@ export class Donate extends React.Component{
                 {/* <td>Mark</td> */}
                 <td>{i.name}</td>
                 <td>{i.patientAddressToDonateFunds}</td>
-                <td><Button variant="success" onClick={(event) => {
-                        this.handleDonateFunds(i.id);
-                        alert('check 0');
-                        }
+                <td><Button variant="success" onClick={(event) =>
+                        this.handleDonateFunds(i.id)
                     }>Donate 0.01 Eth</Button></td>
             </tr>
         )
