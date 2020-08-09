@@ -146,3 +146,8 @@ npm start
  
  
  [Click here to see live demo](https://snh3003.github.io/altf4/)
+ 
+ ### Future modifications:
+ 
+ - Patient Dashboard: Patients can see their medical records along with managing funds that have been donated to them.
+ - Open to suggestions ;p
