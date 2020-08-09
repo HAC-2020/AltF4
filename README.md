@@ -45,6 +45,18 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 -  Finally, each and every transaction that takes place on this application, along with its timestamp, is stored with utmost safety on the Blockchain. Thus ensuring complete        immutability of the data.
 
+## Features
+
+- Admin can add patients.
+
+- Admin can add doctors.
+
+- Admin can assign documents to patients.
+
+- Document can add medical records to assigned patients.
+
+- Medical records of a patient have a complete history.
+
 
 ## How we built it
 
