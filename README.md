@@ -88,6 +88,8 @@ Donation for patients (only patients handle their donation funds)
 
 - Working in teams remotely.
 
+- During the period of Hackathon, Portis wallet servers were facing severe downtime so we had to shift to metamask overnight.
+
 
 ## 🏆 Accomplishments that I'm proud of
 
