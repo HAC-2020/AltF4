@@ -123,7 +123,6 @@ git clone git@github.com:HAC-2020/AltF4.git
 cd AltF4
 npm install 
 npm start
-
 ```
 
 # Tech Stack
