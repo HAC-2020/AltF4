@@ -89,6 +89,8 @@ Donation for patients (only patients handle their donation funds)
 
 - How to integrate portis wallet.
 
+- How to learn and implement new tech hacks quickly.
+
 ## Market Opportunity
  - The healthcare market can increase three-fold to Rs 8.6 trillion (US$ 133.44 billion) by 2022.
 
