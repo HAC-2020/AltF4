@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/altf4/static/css/main.92103ed4.chunk.css",
+    "main.css": "/altf4/static/css/main.1b1dc552.chunk.css",
     "main.js": "/altf4/static/js/main.ea20bc06.chunk.js",
     "main.js.map": "/altf4/static/js/main.ea20bc06.chunk.js.map",
     "runtime-main.js": "/altf4/static/js/runtime-main.e8d09f10.js",
@@ -9,10 +9,10 @@
     "static/js/2.4f299746.chunk.js": "/altf4/static/js/2.4f299746.chunk.js",
     "static/js/2.4f299746.chunk.js.map": "/altf4/static/js/2.4f299746.chunk.js.map",
     "index.html": "/altf4/index.html",
-    "precache-manifest.0f0003a19b46d5b3edd5384cc24b2438.js": "/altf4/precache-manifest.0f0003a19b46d5b3edd5384cc24b2438.js",
+    "precache-manifest.deaae2a3a3da5d9001e9421174c4e028.js": "/altf4/precache-manifest.deaae2a3a3da5d9001e9421174c4e028.js",
     "service-worker.js": "/altf4/service-worker.js",
     "static/css/2.321be830.chunk.css.map": "/altf4/static/css/2.321be830.chunk.css.map",
-    "static/css/main.92103ed4.chunk.css.map": "/altf4/static/css/main.92103ed4.chunk.css.map",
+    "static/css/main.1b1dc552.chunk.css.map": "/altf4/static/css/main.1b1dc552.chunk.css.map",
     "static/js/2.4f299746.chunk.js.LICENSE.txt": "/altf4/static/js/2.4f299746.chunk.js.LICENSE.txt",
     "static/media/Home.module.css": "/altf4/static/media/SeguroMedico.df56a2fe.png",
     "static/media/agreements.svg": "/altf4/static/media/agreements.771a0040.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e8d09f10.js",
     "static/css/2.321be830.chunk.css",
     "static/js/2.4f299746.chunk.js",
-    "static/css/main.92103ed4.chunk.css",
+    "static/css/main.1b1dc552.chunk.css",
     "static/js/main.ea20bc06.chunk.js"
   ]
 }
