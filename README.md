@@ -51,8 +51,6 @@ Seguro Medico provides immutable management and access of medical records and fi
 
 - Admin can add doctors.
 
-- Admin can assign documents to patients.
-
 - Doctor can add medical records to assigned patients.
 
 - Medical records of a patient have a complete history.
